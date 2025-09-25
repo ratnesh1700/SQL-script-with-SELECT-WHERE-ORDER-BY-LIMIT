@@ -1,0 +1,6 @@
+sql
+SELECT name, salary
+FROM employees
+WHERE department = 'Engineering'
+ORDER BY salary DESC
+LIMIT 5;
